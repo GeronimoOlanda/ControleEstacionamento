@@ -1,2 +1,2 @@
 # ControleEstacionamento
-Controle de Entrada e Saudas de um Estacionamento
+Controle de Entrada e Saidas de um Estacionamento
