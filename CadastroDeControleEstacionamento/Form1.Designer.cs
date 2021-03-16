@@ -126,6 +126,7 @@ namespace CadastroDeControleEstacionamento
             this.buttonConfigurar.TabIndex = 1;
             this.buttonConfigurar.Text = "Configurar";
             this.buttonConfigurar.UseVisualStyleBackColor = false;
+            this.buttonConfigurar.Click += new System.EventHandler(this.buttonConfigurar_Click);
             // 
             // labelValorArrecadado
             // 
@@ -157,6 +158,7 @@ namespace CadastroDeControleEstacionamento
             this.dataGridViewCarrosEstacionados.RowHeadersVisible = false;
             this.dataGridViewCarrosEstacionados.Size = new System.Drawing.Size(562, 363);
             this.dataGridViewCarrosEstacionados.TabIndex = 1;
+            this.dataGridViewCarrosEstacionados.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridViewCarrosEstacionados_CellDoubleClick);
             // 
             // labelValorHora
             // 
